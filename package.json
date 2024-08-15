@@ -1,4 +1,5 @@
 {
+  "homepage": "https://wedding_woonjung.github.io/my-app",
   "name": "wedding-invitation",
   "version": "1.0.0",
   "private": true,
@@ -12,7 +13,9 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "antd": "^4.20.4",
